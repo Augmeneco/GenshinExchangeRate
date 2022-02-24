@@ -1,0 +1,2 @@
+# GenshinExchangeRate
+ GenshinExchangeRate

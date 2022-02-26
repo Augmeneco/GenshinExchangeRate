@@ -1,0 +1,201 @@
+body {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+	font-family: Catamaran, sans-serif;
+	/*min-width:800px !important;*/
+}
+
+#maket {
+	width: 100%;
+	text-align: center;
+	height: 100%;
+}
+
+TD {
+	vertical-align: top;
+}
+
+TD#leftcol {
+	width: 15%;
+	min-width: 200px;
+	padding: 0;
+	background: rgb(23, 26, 33);
+}
+
+TD#rightcol {
+	background: rgb(23, 62, 89);
+}
+
+hr {
+	color: black;
+	background-color: black;
+	height: 2px;
+	border: none;
+}
+
+news {
+	font-size: 150%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.bt_games {
+	color: #fff;
+	text-decoration: none;
+	user-select: none;
+	background: rgba(23, 26, 33, 0.5);
+	padding: .4em 1em;
+	outline: none;
+	font-family: Catamaran, sans-serif;
+	display: block;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.btm {
+	background: rgb(23, 62, 89);
+	text-decoration: none;
+	user-select: none;
+	color: white;
+	margin-bottom: 10px;
+	display: block;
+	font-family: Catamaran, sans-serif;
+}
+
+.bt {
+	color: #fff;
+	text-decoration: none;
+	user-select: none;
+	background: #578cb4;
+	padding: .4em 1em;
+	outline: none;
+	font-family: Catamaran, sans-serif;
+	border: 2px solid black;
+	display: block;
+	margin-bottom: -20%;
+}
+
+hr {
+	background: white;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.bt_vk {
+	text-decoration: none;
+	user-select: none;
+	padding: 5px;
+	outline: none;
+	font-family: Catamaran, sans-serif;
+	background: rgba(23, 26, 33, 0.5);
+	color: white;
+}
+
+.bt_login {
+	color: #fff;
+	text-decoration: none;
+	user-select: none;
+	background: #6762A3;
+	padding: 2;
+	outline: none;
+	font-size: 70%;
+	font-family: Catamaran, sans-serif;
+}
+
+body {
+	font-weight: bold;
+	margin: 0;
+	background: rgb(23, 62, 89);
+	color: white;
+	font-family: NS;
+	height: 100%;
+}
+
+html {
+	height: 100%;
+	margin: 0;
+}
+
+.menu {
+	font-family: Catamaran, sans-serif;
+	text-align: left;
+	font-size: 200%;
+	color: white;
+}
+
+.show {
+	font-family: Catamaran, sans-serif;
+	text-align: left;
+	font-size: 120%;
+	border: 2px solid black;
+	background: rgb(116, 124, 165);
+	border-bottom-width: 0px;
+}
+
+.news_div {
+	font-family: Catamaran, sans-serif;
+	text-align: left;
+	font-size: 65%;
+	margin: -1px;
+	background: rgba(23, 26, 33, 0.5);
+	width: 100%;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	margin-bottom: -40px;
+}
+
+.news_date {
+	text-align: left;
+	font-size: 60%;
+	font-family: arial, helvetica, sans-serif
+}
+
+.title {
+	text-align: left;
+	font-size: 220%;
+	width: 100%;
+	color: white;
+	background: rgb(23, 26, 33);
+	/*background: #2F3D7B;*/
+	padding: 10px;
+	font-family: Catamaran, sans-serif;
+	/*border-radius: 0px 0px 90px 90px;*/
+}
+
+.kicker {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 10px;
+	color: rgb(80, 114, 153);
+	width: 100%;
+	font-size: 150%;
+	font-family: Catamaran, sans-serif;
+}
+
+.buttons {
+	text-align: left;
+	font-size: 120%;
+	color: white;
+	padding: 20px;
+	font-family: Catamaran, sans-serif;
+}
+
+.buttons a {
+	margin-bottom: 10px;
+}
+
+nodnol a {
+	margin-bottom: 10px;
+}
+
+.ad {
+	background: rgb(23, 62, 89);
+	color: white;
+	font-weight: bold;
+	padding: 2px;
+}

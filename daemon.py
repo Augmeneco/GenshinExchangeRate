@@ -18,7 +18,7 @@ while True:
         for currency in config['currency']:
             cost = config['currency'][currency][0]
 
-            index = bs(session.get('https://www.google.com/search?newwindow=1&oq=&aqs=&q='+currency+'+курс').text, 'html.parser')
+            index = bs(session.get('https://www.google.com/search?newwindow=1&oq=&aqs=&q='+currency+'+курс к рублю').text, 'html.parser')
             data = index.html.body.contents[2].contents[0].div.div.table.tbody.tr.td.div.div.span.span.text
             data = float(data.replace(' Российский рубль','').replace(',','.'))
 

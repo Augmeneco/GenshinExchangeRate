@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-import json, datetime, os
+import json, datetime, os, sqlite3
+
+#history_db = sqlite3.connect('data/history.db')
 
 config = json.loads(open('data/config.json','r').read())
 
@@ -66,9 +68,9 @@ if 'menu' not in GET:
     for price in config['exchange'].keys():
         prices += '''
             <div class="news_div">
-                <div stype="font-size: 200%">{0} ₽ в {1}</div>
+                <div stype="font-size: 200%">{0} ₽ в {1} {2}</div>
             </div><br>
-        '''.format(config['exchange'][price], config['currency'][price][2])
+        '''.format(config['exchange'][price], config['currency'][price][2], config['currency'][price][3])
 
     html = html.format(
         prices=prices
@@ -103,6 +105,22 @@ else:
 
                     <div class="news_div">
                         <a href="https://github.com/Augmeneco/GenshinExchangeRate">GitHub</a>
+                    </div><br>
+
+                    </div>
+                </td>
+        </body>
+        </html>'''
+    
+    if GET['menu'] == 'history':
+        html += '''<td id="rightcol">
+                    <div class="menu" style="margin: 0;">
+                    <div style="text-align: left; margin-left: 10px">
+                        <b>График за месяц:</b>
+                    </div>
+
+                    <div class="news_div">
+                        пустота
                     </div><br>
 
                     </div>

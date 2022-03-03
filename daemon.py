@@ -23,14 +23,22 @@ while True:
             data = float(data.replace(' Российский рубль','').replace(',','.'))
 
             exchange_nosort[currency] = round(data*cost,2)
+            
+            if exchange_nosort[currency] > config['exchange'][currency]:
+                config["currency"][currency][3] = '<span style="color: red;">▲</span>'
+            if exchange_nosort[currency] < config['exchange'][currency]:
+                config["currency"][currency][3] = '<span style="color: #17FF00;">▼</span>'
+            #if exchange_nosort[currency] == config['exchange'][currency]:
+            #    config["currency"][currency][3] = ''
 
         for k in sorted(exchange_nosort, key=exchange_nosort.get):
             exchange[k] = exchange_nosort[k]
 
         config['exchange'] = exchange
-        config['last_check'] = time.time() 
+        config['last_check'] = time.time()
 
         open('data/config.json','w').write(json.dumps(config, indent=4))
+
         log('Complete')
 
     except Exception as error:

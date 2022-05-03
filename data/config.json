@@ -4,37 +4,37 @@
             4.99,
             "$",
             "\u0414\u043e\u043b\u043b\u0430\u0440 \u0421\u0428\u0410",
-            "<span style=\"color: #17FF00;\">\u25bc</span>"
+            "<span style=\"color: red;\">\u25b2</span>"
         ],
         "GBP": [
             4.49,
             "\u00a3",
             "\u0424\u0443\u043d\u0442 \u0441\u0442\u0435\u0440\u043b\u0438\u043d\u0433\u043e\u0432",
-            "<span style=\"color: #17FF00;\">\u25bc</span>"
+            "<span style=\"color: red;\">\u25b2</span>"
         ],
         "EUR": [
             4.99,
             "\u20ac",
             "\u0415\u0432\u0440\u043e",
-            "<span style=\"color: red;\">\u25b2</span>"
+            "<span style=\"color: #17FF00;\">\u25bc</span>"
         ],
         "CAD": [
             6.99,
             "$",
             "\u041a\u0430\u043d\u0430\u0434\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
-            "<span style=\"color: #17FF00;\">\u25bc</span>"
+            "<span style=\"color: red;\">\u25b2</span>"
         ],
         "MYR": [
             19.9,
             "RM",
             "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u0439\u0441\u043a\u0438\u0439 \u0440\u0438\u043d\u0433\u0433\u0438\u0442",
-            "<span style=\"color: #17FF00;\">\u25bc</span>"
+            "<span style=\"color: red;\">\u25b2</span>"
         ],
         "SGD": [
             6.98,
             "S$",
             "\u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
-            "<span style=\"color: #17FF00;\">\u25bc</span>"
+            "<span style=\"color: red;\">\u25b2</span>"
         ],
         "IDR": [
             79000,
@@ -46,7 +46,7 @@
             179,
             "\u0e3f",
             "\u0422\u0430\u0439\u0441\u043a\u0438\u0439 \u0431\u0430\u0442",
-            "<span style=\"color: #17FF00;\">\u25bc</span>"
+            "<span style=\"color: red;\">\u25b2</span>"
         ],
         "AUD": [
             7.99,
@@ -58,13 +58,13 @@
             27.9,
             "R$",
             "\u0411\u0440\u0430\u0437\u0438\u043b\u044c\u0441\u043a\u0438\u0439 \u0440\u0435\u0430\u043b",
-            "<span style=\"color: #17FF00;\">\u25bc</span>"
+            "<span style=\"color: red;\">\u25b2</span>"
         ],
         "PHP": [
             249,
             "\u20b1$",
             "\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u0441\u043a\u043e\u0435 \u043f\u0435\u0441\u043e",
-            "<span style=\"color: #17FF00;\">\u25bc</span>"
+            "<span style=\"color: red;\">\u25b2</span>"
         ],
         "VND": [
             109000,
@@ -76,19 +76,19 @@
             23.99,
             "z\u0142",
             "\u041f\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u0437\u043b\u043e\u0442\u044b\u0439",
-            "<span style=\"color: #17FF00;\">\u25bc</span>"
+            "<span style=\"color: red;\">\u25b2</span>"
         ],
         "INR": [
             449,
             "\u20b9",
             "\u0418\u043d\u0434\u0438\u0439\u0441\u043a\u0430\u044f \u0440\u0443\u043f\u0438\u044f",
-            "<span style=\"color: #17FF00;\">\u25bc</span>"
+            "<span style=\"color: red;\">\u25b2</span>"
         ],
         "HKD": [
             38,
             "HK$",
             "\u0413\u043e\u043d\u043a\u043e\u043d\u0433\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
-            "<span style=\"color: #17FF00;\">\u25bc</span>"
+            "<span style=\"color: red;\">\u25b2</span>"
         ],
         "TRY": [
             84.99,
@@ -97,30 +97,30 @@
             "<span style=\"color: red;\">\u25b2</span>"
         ],
         "KZT": [
-            1990,
+            2490,
             "$",
             "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0441\u043a\u0438\u0439 \u0442\u0435\u043d\u0433\u0435",
             "<span style=\"color: red;\">\u25b2</span>"
         ]
     },
     "exchange": {
-        "KZT": 477.6,
-        "MYR": 552.82,
-        "VND": 555.9,
-        "BRL": 558.0,
-        "PHP": 560.25,
-        "HKD": 565.82,
-        "USD": 580.39,
-        "SGD": 597.91,
-        "TRY": 612.78,
-        "GBP": 613.11,
-        "THB": 639.03,
-        "IDR": 639.9,
-        "EUR": 643.76,
-        "CAD": 644.41,
-        "PLN": 649.17,
-        "AUD": 679.47,
-        "INR": 686.97
+        "MYR": 307.45,
+        "VND": 316.1,
+        "PHP": 318.72,
+        "HKD": 325.66,
+        "USD": 335.58,
+        "SGD": 339.3,
+        "THB": 349.05,
+        "EUR": 354.09,
+        "PLN": 362.49,
+        "IDR": 363.4,
+        "CAD": 365.65,
+        "BRL": 373.02,
+        "KZT": 373.5,
+        "GBP": 378.51,
+        "AUD": 382.08,
+        "TRY": 385.0,
+        "INR": 395.12
     },
-    "last_check": 1646298298.2447088
+    "last_check": 1651586320.154666
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import json, datetime, os, sqlite3
+import json, datetime, os, sqlite3, sys
 
 #history_db = sqlite3.connect('data/history.db')
 
@@ -112,15 +112,21 @@ else:
         </body>
         </html>'''
     
-    if GET['menu'] == 'history':
+    if GET['menu'] == 'debug':
         html += '''<td id="rightcol">
                     <div class="menu" style="margin: 0;">
                     <div style="text-align: left; margin-left: 10px">
-                        <b>График за месяц:</b>
+                        <b>GET:</b>
                     </div>
-
                     <div class="news_div">
-                        пустота
+                        {}
+                    </div><br>
+                    
+                    <div style="text-align: left; margin-left: 10px">
+                        <b>POST:</b>
+                    </div>
+                    <div class="news_div">
+                        {}
                     </div><br>
 
                     </div>
@@ -128,4 +134,4 @@ else:
         </body>
         </html>'''
 
-print(html)
+print(html.format(os.environ, sys.stdin.read()))

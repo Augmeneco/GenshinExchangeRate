@@ -41,6 +41,7 @@ html = '''
                <a href="/index.py" class="btm"> Главная </a>
                <a href="/index.py?menu=contacts" class="btm"> Контакты </a>
                <a href="/index.py?menu=sourcecode" class="btm"> Исходный код </a>
+               <a href="/index.py?menu=kazah" class="btm"> Версия для Казахов </a>
                <img src="data/zhongli.png"/ width="250px">
             </div>
          </td>
@@ -133,5 +134,32 @@ else:
                 </td>
         </body>
         </html>'''
+    if GET['menu'] == 'kazah':
+        config = json.loads(open('data/config_kazah.json','r').read())
+        html += '''<td id="rightcol">
+                    <div class="menu" style="margin: 0;">
+                    <div style="text-align: left; margin-left: 10px">
+                        <b>Стоимость Благословения полой луны в Тенге: 2490 KZT</b>
+                    </div>
+
+                    <!-- валюты -->
+                    {prices}
+
+                    </div>
+                </td>
+        </body>
+        </html>'''
+        prices = ''
+        for price in config['exchange'].keys():
+
+            prices += '''
+                <div class="news_div">
+                    <div stype="font-size: 200%">{0} ₽ в {1} {2}</div>
+                </div><br>
+            '''.format(config['exchange'][price], config['currency'][price][2], config['currency'][price][3])
+
+        html = html.format(
+            prices=prices
+        )
 
 print(html.format(os.environ, sys.stdin.read()))

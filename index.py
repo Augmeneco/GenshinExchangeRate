@@ -154,7 +154,7 @@ else:
 
             prices += '''
                 <div class="news_div">
-                    <div stype="font-size: 200%">{0} ₽ в {1} {2}</div>
+                    <div stype="font-size: 200%">{0} KZT в {1} {2}</div>
                 </div><br>
             '''.format(config['exchange'][price], config['currency'][price][2], config['currency'][price][3])
 

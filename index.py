@@ -40,6 +40,7 @@ html = '''
             <div style="font-size: 140%;">
                <a href="/index.py" class="btm"> Главная </a>
                <a href="/index.py?menu=contacts" class="btm"> Контакты </a>
+               <a href="https://rentry.org/genshpay" class="btm"> Гайд по оплате с VPN </a>
                <a href="/index.py?menu=sourcecode" class="btm"> Исходный код </a>
                <a href="/index.py?menu=kazah" class="btm"> Версия для Казахов </a>
                <img src="data/zhongli.png"/ width="250px">
